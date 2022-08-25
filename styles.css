@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    background-color: black;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    margin-inline: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: red;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    min-width: 120px;
+    padding: 10px;
+}
+
+.dropdown-content a {
+    display: block;
+    color: blue;
+}
+
+.dropdown-content a:hover {
+    background-color: red;
+}
+
+div.show {
+    display: block;
+}
